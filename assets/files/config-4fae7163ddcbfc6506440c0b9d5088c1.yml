@@ -1,0 +1,60 @@
+inject_commands: false
+server_connect_timeout: 5000
+enforce_secure_profile: false
+forge_support: false
+player_limit: -1
+log_pings: true
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - ''
+timeout: 30000
+log_commands: true
+network_compression_threshold: 256
+online_mode: false
+disabled_commands:
+- end
+- ip
+- reload
+- alertraw
+- bungee
+- glist
+- greload
+- perms
+servers:
+  lobby:
+    motd: ''
+    address: 0.0.0.0:25562
+    restricted: false
+  server:
+    motd: ''
+    address: 0.0.0.0:25561
+    restricted: false
+listeners:
+- query_port: 25565
+  motd: ''
+  priorities:
+  - lobby
+  bind_local_address: false
+  tab_list: GLOBAL_PING
+  query_enabled: true
+  host: 0.0.0.0
+  forced_hosts: {}
+  max_players: 2024
+  tab_size: 80
+  ping_passthrough: false
+  force_default_server: true
+  proxy_protocol: false
+ip_forward: true
+remote_ping_timeout: 5000
+reject_transfers: false
+remote_ping_cache: -1
+connection_throttle: 5000
+stats: c412117a-e9c7-45bc-9ef5-16353df46ce6
+connection_throttle_limit: 3
+groups:
+  unfiXxx:
+  - ''
+prevent_proxy_connections: false
