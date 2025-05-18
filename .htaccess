@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} srbots.github.io
+RewriteRule (.*) https://srbots.ru/$1 [R=301,L]
